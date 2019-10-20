@@ -39,13 +39,6 @@
                             </div>
                         </div>
 
-                        <hr>
-                        <div class="form-group row mb-0">
-                            <div class="col-md-8 offset-md-4">
-                                <a href="{{ url('/auth/redirect/facebook') }}" class="btn btn-primary"><i class="fa fa-facebook"></i> Facebook</a>
-                            </div>
-                        </div>
-
                         <div class="form-group row">
                             <div class="col-md-6 offset-md-4">
                                 <div class="form-check">
@@ -69,6 +62,13 @@
                                         {{ __('Forgot Your Password?') }}
                                     </a>
                                 @endif
+                            </div>
+                        </div>
+
+                        <hr>
+                        <div class="form-group row mb-0">
+                            <div class="col-md-8 offset-md-4">
+                                <a href="{{ url('/auth/redirect/facebook') }}" class="btn btn-primary"><i class="fa fa-facebook"></i> Iniciar sesión con facebook</a>
                             </div>
                         </div>
                     </form>
